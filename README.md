@@ -6,36 +6,36 @@ ufopframe 是为七牛 ufop 开发的一个框架，通过修改其中一些代�
 ## 使用步骤
 * 下载框架代码，查看框架的目录结构
 	
-```
-├── CHANGELOG.md
-├── LICENSE
-├── README.md
-└── ffmpeg
-    ├── deploy
-    │   ├── Dockerfile
-    │   ├── dora.yaml
-    │   └── ffmpeg
-    │       ├── ffmpeg.conf
-    │       ├── qufop
-    │       └── qufop.conf
-    └── src
-        ├── build.sh
-        ├── cross_build.sh
-        ├── ffmpeg.conf
-        ├── qufop.conf
-        ├── qufop.go
-        └── ufop
-            ├── base.go
-            ├── config.go
-            ├── ffmpeg
-            │   └── ffmpeg.go
-            ├── server.go
-            └── utils
-                ├── charset.go
-                ├── param.go
-                ├── reqid.go
-                └── tools.go
 	```
+	├── CHANGELOG.md
+	├── LICENSE
+	├── README.md
+	└── ffmpeg
+	    ├── deploy
+	    │   ├── Dockerfile
+	    │   ├── dora.yaml
+	    │   └── ffmpeg
+	    │       ├── ffmpeg.conf
+	    │       ├── qufop
+	    │       └── qufop.conf
+	    └── src
+	        ├── build.sh
+	        ├── cross_build.sh
+	        ├── ffmpeg.conf
+	        ├── qufop.conf
+	        ├── qufop.go
+	        └── ufop
+	            ├── base.go
+	            ├── config.go
+	            ├── ffmpeg
+	            │   └── ffmpeg.go
+	            ├── server.go
+	            └── utils
+	                ├── charset.go
+	                ├── param.go
+	                ├── reqid.go
+	                └── tools.go
+	```	
 	
 	* ``src`` 是代码目录
 		* ``build.sh``: 是当前环境的编译脚本，可以直接使用下面的命令编译当前项目
