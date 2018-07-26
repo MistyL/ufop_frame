@@ -6,7 +6,7 @@ ufopframe 是为七牛 ufop 开发的一个框架，通过修改其中一些代�
 ## 使用步骤
 * 下载框架代码，查看框架的目录结构
 	
-	```
+```
 ├── CHANGELOG.md
 ├── LICENSE
 ├── README.md
