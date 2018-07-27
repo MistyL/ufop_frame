@@ -63,10 +63,11 @@ ufopframe 是为七牛 ufop 开发的一个框架，通过修改其中一些代�
 		
 		```
 		//register job handlers
-	if err := ufopServ.RegisterJobHandler("ffmpeg.conf", &ffmpeg.FFmpeg{}); err != nil {
-		log.Error(err)
-	}
+		if err := ufopServ.RegisterJobHandler("ffmpeg.conf", &ffmpeg.FFmpeg{}); err != nil {
+			log.Error(err)
+		}
 		```
+		
 	* 修改 ``ffmpeg``目录下的 ``ffmpeg.go``代码
 	
 		```
